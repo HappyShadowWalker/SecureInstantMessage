@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Setting>
+<CurUser>
+     <curUserAcc>ShadowWalker</curUserAcc>
+     <userImgPath>:/HeadImg/img/headImg/ShadowWalker.png</userImgPath>
+     <userSignedName>Hello ShadowWalker </userSignedName>
+     <userIP>127.0.0.1</userIP>
+
+</CurUser>
+<Friends>
+   <friend>
+      <friendAcc>Fengyawei </friendAcc>
+      <friendImgPath>:/HeadImg/img/headImg/FengYaWei.jpg</friendImgPath>
+      <friendSignedName>Hello FengYaWei </friendSignedName>
+      <friendIP>127.0.0.1</friendIP>
+   </friend>
+   <friend>
+      <friendAcc>GiantFeng </friendAcc>
+      <friendImgPath>:/HeadImg/img/headImg/GiantFeng.png</friendImgPath>
+      <friendSignedName>Hello GiantFeng </friendSignedName>
+      <friendIP>127.0.0.1</friendIP>
+   </friend> 
+</Friends>
+</Setting>

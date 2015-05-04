@@ -1,0 +1,61 @@
+/*
+QToolBar{
+    border:none;
+}
+
+QToolButton::checked{
+    background-color:#ffcc55;
+
+}
+
+QToolButton::!checked{
+    background-color:#5566ff;
+
+}
+*/
+
+
+
+QToolBar{
+    border:none;
+}
+
+QToolButton{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #5B5F5F, stop: 0.5 #0C2436,
+                                 stop: 1.0 #27405A);
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #11223F;
+    padding: 1px;
+}
+
+QToolButton::hover{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #758385, stop: 0.5 #122C39,
+                                 stop: 1.0 #0E7788);
+    border-color: #11505C;
+}
+
+QToolButton::pressed{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #969B9C, stop: 0.5 #16354B,
+                                 stop: 1.0 #244F76);
+    border-color: #11505C;
+}
+QToolButton::disabled{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #282B2C, stop: 0.5 #09121A,
+                                 stop: 1.0 #111D29);
+    border-color: #0A1320;
+    color:#6A6864;
+
+}
+
+
+
+QToolButton{
+  min-width:30px;
+  min-height:23px;
+}
